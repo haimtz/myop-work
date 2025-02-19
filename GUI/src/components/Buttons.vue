@@ -17,7 +17,9 @@ const click = (e: Event) => emits("click", e);
 <style lang="scss" scoped>
 .button {
   display: flex;
-  width: 20vw;
+  justify-content: center;
+  color: #fff;
+  width: 2vw;
   border-radius: 2px;
   background-color: #2986f0;
   text-align: center;

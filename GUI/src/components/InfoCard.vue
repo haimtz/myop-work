@@ -7,7 +7,9 @@ defineProps<{
 </script>
 <template>
   <section class="info-card">
-    <div class="card-image">image</div>
+    <div class="card-image">
+      <img src="../assets/placeholder.jpeg" width="100%" height="100%" />
+    </div>
     <div class="description">
       <div class="title">{{ title }}</div>
       <div class="sub-title">{{ subTitle }}</div>
@@ -20,7 +22,6 @@ defineProps<{
 
 section {
   @include mixin.border();
-  width: 100%;
   padding: var(--padding);
   display: grid;
 
